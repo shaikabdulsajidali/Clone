@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric cars,Solar & Clean Energy | Tesla</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .topfixed{
+            background-color: black;
+            color: #EEEEEE;
+            border-radius: 5px;
+            padding: 5px;
+            margin-left: 5px;
+            
+        }
+        .top{
+            background-color: rgb(241, 221, 168);
+            width: 100%;
+            height: 1.4rem;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+        }
+        .top~button{
+            background-color: black;
+            color: #EEEEEE;
+            border-radius: 5px;
+            padding: 5px;
+            margin-left: 5px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top:36px;
+            font-weight: 700;
+            
+        
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            gap: 15px;
+            /* padding-bottom: 25px; */
+            list-style-type: none;
+            text-decoration: none;
+
+        }
+        
+        li a{
+            text-decoration: none;
+            color: #FFFFFF;
+            
+        }
+        .nav11{
+           
+            background: transparent;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        .nav12{
+            width: 60%  ;
+           
+        }
+        .nav13{
+            position: relative;
+            right: 50px;
+            color: white;
+           
+            
+        }
+        .nav13 li{
+            padding-left: 10    px;
+        }
+        
+        
+        main{
+            /* border: 1px solid red; */
+            width: 100%;
+            /* height: 1000vh; */
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .div1{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img1.png");
+            background-size: cover;
+            
+        
+        }
+        .d1insideimg{
+            text-align: center;
+            color: #FFFFFF;
+            line-height: 40px;
+            padding-top: 28vh;
+        }
+        .d1insideimg h1{
+            font-size: 9vh;
+            font-weight: 600;
+            
+        }
+        .div1b{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .div2{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img2.png");
+            background-size: cover;
+
+        }
+        .dinsideimg{
+            text-align: center;
+            color: #FFFFFF;
+            line-height: 40px;
+            padding-top: 28vh;
+        }
+        .dinsideimg h2{
+            font-size: 8vh;
+            font-weight: 600;
+            
+        }
+        .dinsideimg h3{
+            font-size: 3vh;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        .divb{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div3{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img3.png");
+            background-size: cover;
+
+        }
+        .div4{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img4.png");
+            background-size: cover;
+
+        }
+        .div5{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img5.png");
+            background-size: cover;
+
+        }
+        .div6{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img6.png");
+            background-size: cover;
+
+        }
+        .div7{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img7.png");
+            background-size: cover;
+
+        }
+        .div8{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img8.png");
+            background-size: cover;
+
+        }
+        .div9{
+            height: 100vh;
+            width: 100%;
+            background-image: url("assets/img9.png");
+            background-size: cover;
+
+        }
+        .div10{
+            height: 60vh;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        button{
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(19, 19, 19);
+            color: #FFFFFF;
+            border-top:3px solid grey;
+            
+            border-radius: 3px;
+        }
+        button:hover{
+            background-color: red;
+            color: #FFFFFF;
+        }
+        .b41{
+            background-color: rgb(68, 68, 215);
+            color: white;
+            width: 25vw;
+            border-radius: 6px;
+            font-size: medium;
+            position: relative;
+            top: 40vh;
+        }
+        .b42{
+            background-color: white;
+            color: black;
+            width: 25vw;
+            border-radius: 6px;
+            font-size: medium;
+            position: relative;
+            top: 40vh;
+
+
+        }
+
+
+        
+        footer{
+            border: 1px solid black;
+            height: 30vh;
+            width: 100%;
+            text-align: center;
+            background-color: #FFFFFF;
+            padding-top: 100px;
+        }
+        .divs{
+            width: 100%;
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 42rem;
+            background-color: black;
+        }
+        .schedule{
+            height: 65px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            font-size: large;
+            font-weight: 400;
+            box-shadow: 10px 4px 10px black;
+            
+        }
+        
+        
+        .f{
+            background-color:#EEEEEE;
+            color: black;
+            width: 20%;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 10px;
+        }
+        a:hover{
+            color: blue;
+        }
+        li:hover{
+            color: blue;
+        }
+       
+        /* @media screen and(max-width:1000) {
+            .divs{
+                position: fixed;
+                top: 1600px;
+
+            }
+            
+        } */
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="top">
+            <p>We're celebrating Earth Day.</p>
+            <button type="button" class="topfixed" >Learn More</button>
+
+        </div>
+    </header>
+    <main>
+        <div class="div1">
+            <div class="nav">
+                <div class="nav11">
+                    <img src="assets/logo.png" alt="logo" height="30px" width="150px">
+                </div>
+                <div class="nav12">
+                    <ul class="navul">
+                        <li><a href="vehicles.html">Vehicles</a></li>
+                        <li><a href="Energy.html">Energy</a></li>
+                        <li><a href="Charging.html">Charging</a></li>
+                        <li><a href="Discover.html">Discover</a></li>
+                        <li><a href="Shop.html">Shop</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="nav13">
+                    <ul >
+                        <li><i class="fa-regular fa-circle-question"></i></li>
+                        <li><i class="fa-solid fa-globe"></i></li>
+                        <li><i class="fa-regular fa-circle-user"></i></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="d1insideimg">
+                <h1>Model Y</h1>
+                <h2>Starting at $41,490</h2>
+                <h3>After $7500 Federal Tax Credit</h3>
+                <div class="div1b">
+                    <div class="div1b1">
+                        
+                        <button type="submit">Order Now</button>
+                    </div>
+                    <div class="div1b2">
+                        <button type="submit">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="dinsideimg">  
+                <h2>Model 3</h2>
+                <h3>0% APR Available</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        <button type="submit">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div3">
+            <div class="dinsideimg">  
+                <h2>Model 3</h2>
+                <h3>Lease From $779/mo</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit">Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div4">
+            <div class="dinsideimg">  
+                <h2>Model X</h2>
+                <h3>Free Supercharging Ending Soon</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit" class="b42" >Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div5">
+            <div class="dinsideimg">  
+                <h2>Model S</h2>
+                <h3>Free Supercharging Ending Soon</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit" class="b42" >Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div6">
+            <div class="dinsideimg">  
+                <h2>Solar Panels</h2>
+                <h3>Schedule a virtual Consultation</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit" class="b42" >Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div7">
+            <div class="dinsideimg">  
+                <h2>Solar Roof</h2>
+                <h3>Produce Clean Energy From Your Roof</h3>
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit" class="b42" >Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div8">
+            <div class="dinsideimg">  
+                <h2>Powerwall</h2>
+                
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Order Now</button>
+                    </div>
+                    <div class="divb2">
+                        <button type="submit" class="b42" >Learn More</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div9">
+            <div class="dinsideimg">  
+                <h2>Accessories</h2>
+                
+                <div class="divb">
+                    <div class="div2b1">
+                        
+                        <button type="submit" class="b41">Shop Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="div10">
+            <video src="assets/v1.webm" autoplay loop muted style="width: 100%"></video>
+        </div>
+    </main>
+    <footer>
+        
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="inner" style="height: 12vh;width: 60%;">
+                <p>Before the Federal Tax Credit, Model Y Long Range AWD starts at $50,630. Price includes Destination and Order Fees but exclude taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. The $7,500 Federal Tax Credit is available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible <a href="terms.html">Terms apply</a></p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <ul style="list-style-type: none;" >
+                <li><a href="Tesla2025"></a>Tesla © 2025</li>
+                <li><a href="Privacy&Legal"></a>Privacy & Legal</li>
+                <li><a href="VehicleRecalls"></a>Vehicle Recalls</li>
+                <li><a href="Contact"></a>Contact</li>
+                <li><a href="News"></a>News</li>
+                <li><a href="GetUpdates"></a>Get Updates</li>
+                <li><a href="Locations"></a>Locations</li>
+                <li><a href="Learn"></a>Learn</li>
+            </ul>
+        </div>
+        
+        <div class="divs" >
+            <div class="schedule"  >
+                <h4 class="f"><i class="fa-solid fa-car"></i> Schedule a Drive Today</h4>
+            </div>
+        </div>
+        
+     
+    </footer>
+    
+</body>
+</html>
